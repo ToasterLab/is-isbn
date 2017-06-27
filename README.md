@@ -1,6 +1,6 @@
 # [is-isbn](https://www.npmjs.com/package/is-isbn)
 
-This npm package validates your 10-digit & 13-digit ISBN codes according to its check digits.
+This npm package validates your 10-digit & 13-digit ISBN codes according to their check digits.
 
     const isIsbn = require('is-isbn')
     

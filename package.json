@@ -1,0 +1,26 @@
+{
+  "name": "is-isbn",
+  "version": "1.0.0",
+  "description": "validates ISBN & ISBN13 codes",
+  "main": "is-isbn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ToasterLab/is-isbn.git"
+  },
+  "keywords": [
+    "isbn",
+    "validate",
+    "isbn13",
+    "check",
+    "book"
+  ],
+  "author": "Huey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ToasterLab/is-isbn/issues"
+  },
+  "homepage": "https://github.com/ToasterLab/is-isbn#readme"
+}

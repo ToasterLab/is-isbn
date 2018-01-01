@@ -1,10 +1,10 @@
 {
   "name": "is-isbn",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "validates ISBN & ISBN13 codes",
   "main": "is-isbn.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ToasterLab/is-isbn/issues"
   },
-  "homepage": "https://github.com/ToasterLab/is-isbn#readme"
+  "homepage": "https://github.com/ToasterLab/is-isbn#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.1.0"
+  }
 }

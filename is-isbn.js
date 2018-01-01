@@ -34,7 +34,7 @@ isIsbn.prototype.validate = isbn => {
 					sum += parseInt(digit)
 				}
 			})
-			return (10-(sum % 10)) === check
+			return (sum % 10) === check || (10-(sum % 10)) === check
 		}
 		return checkSum(isbn)
 	} else {
